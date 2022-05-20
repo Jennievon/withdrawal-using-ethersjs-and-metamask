@@ -1,0 +1,66 @@
+.sendTX {
+  position: relative;
+}
+
+.form_header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #d6e1e6;
+  padding: 2rem 1.5rem;
+}
+
+.form_header svg {
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.form_body {
+  padding: 2.7rem 1.5rem 0;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0 0;
+}
+
+input {
+  height: 50px;
+  margin: 0 0 10px;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 18px;
+  outline: none;
+}
+
+.form_footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form_footer button {
+  width: 45%;
+  padding: 1rem 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cancel {
+  border: 3px solid black;
+  background: transparent;
+}
+
+.next {
+  border: 1px solid transparent;
+  background-color: rgb(0, 132, 255);
+  color: #fff;
+}
